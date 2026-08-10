@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bahuleya M — Premium Personal Engineering Portfolio
 
-## Getting Started
+A production-quality personal portfolio website and interactive AI/engineering laboratory built for **Bahuleya M** (B.E. Computer Science, AI & ML at RV College of Engineering, 2024–2028).
 
-First, run the development server:
+Designed with a high-fidelity cinematic technical dark mode theme, featuring strict maintainability controls and advanced interactive animations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Key Features
+
+*   **Content-Presentation Isolation**: Zero hardcoded page strings. Content is housed strictly in TypeScript contracts (`/data/*`), separating structural data from React rendering views.
+*   **Interactive Visualizations**:
+    *   **System Map**: Glowing responsive SVG connection lines linking computer intelligence categories to active engineering projects.
+    *   **Project Constellation**: High-performance 2D HTML Canvas showing projects as gravity-responsive celestial nodes sharing technical ties.
+    *   **Architecture Graph**: Reusable, flow-chart builder that plots data pipelines and percept-to-actuation steps for major projects.
+*   **Global Command Palette**: A keyboard-accessible overlay (`Cmd/Ctrl + K`) allowing visitors to query the project database, trigger links, and run navigation macros.
+*   **Custom Micro-Interactions**: Magnetic physics-based navigation triggers, entrance reveal animations, glassmorphic card layers, and an interactive cinematic custom cursor.
+*   **SEO & Accessibility Audits**: Integrated page titles, meta descriptions, semantic HTML5 structure, skip-to-content supports, and media fallback readouts.
+
+---
+
+## 📂 Architecture Directory Outline
+
+```text
+├── app/                      # Next.js App Router (Entry & Pages)
+│   ├── globals.css           # Cinematic dark theme tokens & utility CSS
+│   ├── layout.tsx            # Global Shell (Navbar, Footer, Cursor, Search Palette)
+│   ├── page.tsx              # Dynamic Laboratory Home Dashboard
+│   ├── projects/             # Projects Archive Routing
+│   ├── research/             # Computational Genomics Research page
+│   └── about/                # Personnel details & skills matrix
+├── components/               # View Layers (Presentational UI)
+│   ├── ui/                   # Reusable widgets (GlassPanel, MagneticButton, Reveal, Cursor)
+│   ├── layout/               # Shell elements (Navbar, Footer, CommandPalette)
+│   ├── hero/                 # Telemetry panels and Hero headlines
+│   ├── projects/             # Portfolio media and list grids
+│   └── visualizations/       # SystemMap, Constellation, and ArchitectureGraph
+├── data/                     # Content Layer (Strictly Structured)
+│   ├── site.ts               # Name, contact info, bio summaries
+│   ├── projects.ts           # Full database of main and archived projects
+│   ├── research.ts           # Academic genomics research milestones
+│   └── skills.ts             # Categorized capabilities and tech stacks
+├── types/                    # TypeScript System Contracts
+│   ├── project.ts            # Interfaces for project structures & nodes
+│   ├── site.ts               # Global configurations structure
+│   └── research.ts           # Genomics data structures
+└── lib/                      # Base Utilities
+    ├── utils.ts              # Tailwind CSS class merging helper
+    └── motion.ts             # Framer Motion animation variants
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Installation & Telemetry Running
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Follow these instructions to run or build the system locally:
 
-## Learn More
+### 1. Install System Dependencies
+Install package dependencies:
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Run Local Development Server
+Boot up the local engineering server:
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) inside your browser to view the active laboratory dashboard.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Run Production Compilation
+Verify there are no TypeScript compiler warnings and compile the code into production-ready static outputs:
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ How to Update Content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Since content is cleanly decoupled, you do not need to edit any UI files under `components/` or `app/` to update project specs. Simply modify the typescript arrays under `data/`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   **To Add a Project**: Append a new project object to `data/projects.ts` adhering to the `Project` interface. Define its `architecture` nodes/edges to automatically trigger its layout flow in the details page.
+*   **To Update Research Logs**: Append research events or details to `data/research.ts`.
+*   **To Edit Skills**: Modify the `skillCategories` list in `data/skills.ts`.
