@@ -30,9 +30,5 @@ export const skillCategories: SkillCategory[] = [
     skills: ["ESP32", "Arduino", "Raspberry Pi"],
     description: "Edge computation, microcontrollers, sensor integration, and real-time physical systems control."
   },
-  {
-    name: "Research & Analytics",
-    skills: ["Computational Genomics", "Bioinformatics", "Healthcare Analytics", "RDKit", "Statistical Modeling"],
-    description: "Analyzing computational biology datasets, genomic processing pipelines, chemistry informatics, and mathematical analysis."
-  }
+  
 ];

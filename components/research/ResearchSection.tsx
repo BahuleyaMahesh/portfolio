@@ -19,16 +19,16 @@ export function ResearchSection() {
           <Reveal delay={0.1}>
             <div className="flex items-center space-x-2 text-accent font-mono text-[10px] tracking-widest uppercase mb-4">
               <BookOpen size={12} />
-              <span>Computational Research Node</span>
+              <span>Data Science Research Node</span>
             </div>
             
             <h3 className="font-display font-black text-3xl sm:text-4xl text-text-primary uppercase tracking-wide leading-tight mb-4">
-              Centre of Excellence for Computational Genomics
+              Centre of Excellence for Biomedical Analytics
             </h3>
             
             <p className="text-sm text-text-secondary leading-relaxed mb-6 font-sans">
-              Conducting data-driven biological modeling at RVCE. Working on bioinformatics pipelines, 
-              statistical genomics filters, and chemical interaction simulations (using RDKit) to bridge computer science and modern molecular medicine.
+              Conducting data-driven biological modeling at RVCE. Working on bioinformatics pipelines,
+              statistical analysis, and chemical interaction simulations (using RDKit) to bridge computer science and modern molecular medicine.
             </p>
           </Reveal>
 

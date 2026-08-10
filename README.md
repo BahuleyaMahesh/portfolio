@@ -27,7 +27,7 @@ Designed with a high-fidelity cinematic technical dark mode theme, featuring str
 │   ├── layout.tsx            # Global Shell (Navbar, Footer, Cursor, Search Palette)
 │   ├── page.tsx              # Dynamic Laboratory Home Dashboard
 │   ├── projects/             # Projects Archive Routing
-│   ├── research/             # Computational Genomics Research page
+│   ├── research/             # Healthcare & Biomedical Research page
 │   └── about/                # Personnel details & skills matrix
 ├── components/               # View Layers (Presentational UI)
 │   ├── ui/                   # Reusable widgets (GlassPanel, MagneticButton, Reveal, Cursor)

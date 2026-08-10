@@ -47,7 +47,7 @@ export default function Home() {
           <SectionHeading
             number="04"
             title="Research"
-            subtitle="COMPUTATIONAL GENOMICS & BIOLOGY"
+            subtitle="DATA SCIENCE & BIOLOGY"
           />
           <ResearchSection />
         </section>

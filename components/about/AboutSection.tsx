@@ -22,9 +22,9 @@ export function AboutSection() {
           </h3>
 
           <p className="text-sm text-text-secondary leading-relaxed mb-6 font-sans">
-            Currently pursuing Computer Science (AI & ML) at RV College of Engineering. 
-            I build systems that bridge software intelligence, hardware control, and high-dimensional biology. 
-            From local cognitive planners to autonomous navigation stacks and genomic processing pipelines, 
+            Currently pursuing Computer Science (AI & ML) at RV College of Engineering.
+            I build systems that bridge software intelligence, hardware control, and health.
+            From local cognitive planners to autonomous navigation stacks and processing pipelines,
             I thrive at the intersection of complex math and concrete implementation.
           </p>
         </Reveal>
@@ -62,9 +62,9 @@ export function AboutSection() {
       {/* Visual Identity Block */}
       <div className="lg:col-span-6">
         <Reveal delay={0.2} direction="right">
-          <GlassPanel 
-            glowOnHover 
-            gridBackground 
+          <GlassPanel
+            glowOnHover
+            gridBackground
             className="p-8 border-border-subtle relative overflow-hidden"
           >
             <div className="absolute top-0 right-0 p-4 font-mono text-[8px] text-text-muted">
@@ -93,8 +93,8 @@ export function AboutSection() {
                 </span>
                 <div className="flex flex-wrap gap-1.5">
                   {["Cognitive AI", "Computer Vision", "Computational Biology", "Embedded Control"].map((f) => (
-                    <span 
-                      key={f} 
+                    <span
+                      key={f}
                       className="px-2.5 py-1 rounded bg-bg-dark border border-border-subtle font-mono text-[9px] text-text-secondary"
                     >
                       {f.toUpperCase()}

@@ -25,7 +25,7 @@ const categories: Category[] = [
   {
     id: "healthcare",
     name: "Healthcare",
-    subcategories: ["Computational Genomics", "Healthcare Analytics", "Bioinformatics"],
+    subcategories: ["Healthcare Analytics", "Bioinformatics"],
     icon: Activity,
     projectSlugs: ["healthcare-genomics"],
   },
