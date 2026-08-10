@@ -23,7 +23,7 @@ export const educationList: EducationItem[] = [
     location: "Bengaluru, India",
     details: [
       "Deep focus on Core CS, AI Architectures, Machine Learning, and Intelligent Agents.",
-      "Conducting research at the Centre of Excellence for Computational Genomics (CoE-CG).",
+      "Exploring AI in healthcare — building prototypes and tackling hackathon problem statements at the intersection of ML and health.",
       "Engineering embedded systems and camera perception for the BAJA SAE vehicle navigation team."
     ]
   }
@@ -31,15 +31,15 @@ export const educationList: EducationItem[] = [
 
 export const experienceList: ExperienceItem[] = [
   {
-    role: "Research Assistant (Computational Genomics)",
-    organization: "Centre of Excellence for Computational Genomics (RVCE)",
-    period: "2025 — Present",
+    role: "AI in Health — Independent Exploration",
+    organization: "Self-directed / Hackathons",
+    period: "2024 — Present",
     location: "Bengaluru, India",
-    description: "Working on data-driven healthcare, genomics workflows, and biological data processing pipelines.",
+    description: "Exploring the intersection of AI and healthcare through independent research and competitive hackathon problem statements.",
     details: [
-      "Building bioinformatics workflows for genomics sequence alignment and statistical analysis.",
-      "Utilizing Python (RDKit) and R for in-silico chemical informatics and biological pathway analysis.",
-      "Designing statistical models to interpret complex biological datasets and ensure model interpretability."
+      "Prototyped AI-powered solutions for healthcare problem statements across multiple hackathons.",
+      "Built voice-based patient monitoring systems and clinical decision-support tools as hackathon submissions.",
+      "Investigating how LLMs and computer vision can augment diagnostics, triage, and rural health access."
     ]
   },
   {

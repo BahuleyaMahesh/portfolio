@@ -34,15 +34,15 @@ export default function AboutPage() {
                 Bahuleya M
               </h3>
               <p className="text-sm text-text-secondary leading-relaxed font-sans mt-4">
-                I am a student builder pursuing a B.E. in Computer Science (AI & ML) at RV College of Engineering. 
-                I treat programming not as an abstract exercise in corporate web templates, but as the construction of 
+                I am a student builder pursuing a B.E. in Computer Science (AI & ML) at RV College of Engineering.
+                I treat programming not as an abstract exercise in corporate web templates, but as the construction of
                 logical machines that perceive, plan, and execute.
               </p>
               <p className="text-sm text-text-secondary leading-relaxed font-sans mt-4">
-                My work spans designing locally running agent memory spaces (like JARVIS), building edge assistive computer 
-                vision glasses (like IKSHANA), and writing data pipelines for computational genomics (CoE-CG). I work where 
-                the theoretical math of machine learning meets real-world constraints: whether it&apos;s a Raspberry Pi edge node, 
-                an off-road BAJA car, or a high-dimensional genomics dataset.
+                My work spans designing locally running agent memory spaces (like JARVIS), building edge assistive computer
+                vision systems (like IKSHANA), and exploring AI in healthcare through hackathon problem statements. I work where
+                the theoretical math of machine learning meets real-world constraints: whether it&apos;s a Raspberry Pi edge node,
+                an off-road BAJA car, or a clinical triage scenario.
               </p>
             </Reveal>
           </div>
@@ -53,12 +53,12 @@ export default function AboutPage() {
                 <Flame size={12} />
                 <span>Engineering Philosophy</span>
               </div>
-              
+
               <div className="mt-4 space-y-4 text-xs font-sans text-text-secondary">
                 <div className="p-4 rounded border border-border-subtle bg-bg-card/30">
                   <h4 className="font-mono font-bold text-text-primary uppercase mb-1">Content-Presentation Isolation</h4>
                   <p className="leading-relaxed">
-                    Always split data from layout. Architecture should grow cleanly. A code base that cannot scale without 
+                    Always split data from layout. Architecture should grow cleanly. A code base that cannot scale without
                     constant code rewrites is an engineering failure.
                   </p>
                 </div>
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 <div className="p-4 rounded border border-border-subtle bg-bg-card/30">
                   <h4 className="font-mono font-bold text-text-primary uppercase mb-1">Rigor over Hype</h4>
                   <p className="leading-relaxed">
-                    Building tools from scratch forces you to understand the physics of your system. Quantizing models, 
+                    Building tools from scratch forces you to understand the physics of your system. Quantizing models,
                     tuning PID loops, and inspecting memory blocks beats API-wrapper copying every time.
                   </p>
                 </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
               <span className="font-mono text-[9px] text-text-muted uppercase tracking-widest block pl-1">
                 Academic Accreditations
               </span>
-              
+
               {educationList.map((edu, idx) => (
                 <Reveal key={edu.institution} delay={0.15 + idx * 0.05}>
                   <GlassPanel gridBackground className="p-6 border-border-subtle">
@@ -125,7 +125,7 @@ export default function AboutPage() {
               <span className="font-mono text-[9px] text-text-muted uppercase tracking-widest block pl-1">
                 Active Research & Engineering Roles
               </span>
-              
+
               {experienceList.map((exp, idx) => (
                 <Reveal key={exp.role} delay={0.2 + idx * 0.05}>
                   <GlassPanel glowOnHover className="p-6 border-border-subtle">
@@ -169,7 +169,7 @@ export default function AboutPage() {
               Capabilities Inventory
             </h3>
           </Reveal>
-          
+
           <SkillsMatrix />
         </section>
 
@@ -193,7 +193,7 @@ export default function AboutPage() {
                   <h4 className="font-mono text-xs font-bold uppercase tracking-wider">System Sketching</h4>
                 </div>
                 <p className="text-xs text-text-secondary leading-relaxed">
-                  I enjoy outlining systems, plotting control paths on whiteboards, and drafting architectural block diagrams 
+                  I enjoy outlining systems, plotting control paths on whiteboards, and drafting architectural block diagrams
                   before sitting down to write lines of code.
                 </p>
               </GlassPanel>
@@ -206,7 +206,7 @@ export default function AboutPage() {
                   <h4 className="font-mono text-xs font-bold uppercase tracking-wider">Technical Literature</h4>
                 </div>
                 <p className="text-xs text-text-secondary leading-relaxed">
-                  Reading deep engineering logs, research drafts, and computational biology whitepapers to keep track of 
+                  Reading deep engineering logs, research drafts, and computational biology whitepapers to keep track of
                   novel algorithms and quantization methods.
                 </p>
               </GlassPanel>
@@ -217,10 +217,9 @@ export default function AboutPage() {
                 <div className="flex items-center space-x-3 text-accent mb-4">
                   <Bike size={16} />
                   <h4 className="font-mono text-xs font-bold uppercase tracking-wider">Physical Coordinates</h4>
-                  </div>
+                </div>
                 <p className="text-xs text-text-secondary leading-relaxed">
-                  Cycling around Bengaluru and investigating vehicle suspension dynamics to balance out hours spent 
-                  facing terminal text prompts.
+                  On the court for badminton and basketball, or out on the road riding motorbikes... Anything that gets my heart beating and blood pumping and a side of adrenaline makes me feel alive.
                 </p>
               </GlassPanel>
             </Reveal>
