@@ -206,7 +206,7 @@ export default function AboutPage() {
                   <h4 className="font-mono text-xs font-bold uppercase tracking-wider">Technical Literature</h4>
                 </div>
                 <p className="text-xs text-text-secondary leading-relaxed">
-                  Reading deep engineering logs, research drafts, and computational biology whitepapers to keep track of
+                  Reading deep engineering logs, research drafts, etc. to keep track of
                   novel algorithms and quantization methods.
                 </p>
               </GlassPanel>
