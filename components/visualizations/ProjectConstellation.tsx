@@ -28,7 +28,7 @@ export function ProjectConstellation() {
 
   // Focus only on main projects + select archives to keep constellation clean
   const constellationProjects = projects.filter(
-    (p) => p.featured || ["plant-disease-aid", "cyberquest", "gemini-lifeline", "solar-analyzer"].includes(p.slug)
+    (p) => p.featured || ["plant-disease-aid", "cyberquezt", "gemini-lifeline", "solar-analyzer"].includes(p.slug)
   );
 
   // Check if two projects are related (share category or tags)
@@ -70,7 +70,7 @@ export function ProjectConstellation() {
       krishimitra: { x: 0.68, y: 0.7 },
       // Archives
       "plant-disease-aid": { x: 0.15, y: 0.28 },
-      cyberquest: { x: 0.82, y: 0.15 },
+      cyberquezt: { x: 0.82, y: 0.15 },
       "gemini-lifeline": { x: 0.5, y: 0.48 },
       "solar-analyzer": { x: 0.22, y: 0.82 },
     };

@@ -161,7 +161,7 @@ export const projects: Project[] = [
       "Syncing with audio recordings to automatically transcribe lectures and place them on the knowledge timeline.",
       "Adding multi-player collaborative graph mapping for study groups."
     ],
-    relatedProjects: ["jarvis", "cyberquest"]
+    relatedProjects: ["jarvis", "cyberquezt"]
   },
   {
     slug: "krishimitra",
@@ -417,9 +417,9 @@ export const projects: Project[] = [
     solution: "Developed an AI system that translates voice reports, formats symptoms, and assigns standard clinical emergency priority tiers (Red, Yellow, Green) using LLM reasoning."
   },
   {
-    slug: "cyberquest",
+    slug: "cyberquezt",
     number: "13",
-    title: "CyberQuest",
+    title: "CyberQuezt",
     subtitle: "Cybersecurity Simulation Game",
     description: "A simulation game designed to teach children digital hygiene using a timeline replay forensics mode.",
     category: ["Cybersecurity", "Web"],
@@ -428,7 +428,7 @@ export const projects: Project[] = [
     year: "2024",
     tags: ["Cyber Hygiene", "Gamification", "Simulations", "React"],
     technologies: ["Next.js", "TypeScript", "Framer Motion", "Tailwind CSS"],
-    github: "YOUR_GITHUB_URL/cyberquest",
+    github: "YOUR_GITHUB_URL/cyberquezt",
     problem: "Conventional cybersecurity courses for teenagers rely on dry quizzes, failing to illustrate the delayed consequences of insecure digital choices.",
     solution: "Built a game showing realistic social engineering scenarios. Player choices (e.g. downloading cracked files) trigger delayed system events that players trace back later in 'Forensic Replay' mode."
   },
